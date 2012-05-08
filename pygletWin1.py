@@ -14,8 +14,10 @@ def on_draw():
     while i <= window.width:
        i = i + 10
        drawLine(i,0,i,window.height)
-    drawLine(0,window.height//2,window.width,window.height//2)
+	drawLine(0,window.height//2,window.width,window.height//2)
 
 
 		
 pyglet.app.run()
+
+#lets add this comment to check git
